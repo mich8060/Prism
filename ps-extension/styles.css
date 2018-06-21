@@ -1,0 +1,372 @@
+#ps-main {
+    width:100% !important;
+    padding-left:0 !important;
+    position:relative !important;
+    margin-left:0 !important;
+}
+
+#ps-container {
+    height:auto !important;
+}
+
+.root---2CZyk {
+    display: none !important;
+}
+
+.home---3JHna {
+    padding:30px 0 90px !important;
+}
+
+
+
+/* NEW STYLES */
+
+.ps_footer {
+    align-items: center;
+    background:#222;
+    color:#AAAAAA;
+    display:flex;
+    height:64px;
+}
+
+.ps_footer--container {
+    display:flex;
+    max-width: 1600px;
+    margin: 0 auto;
+    position:relative;
+    width:100%;
+}
+
+.ps_footer--left {
+    display: flex;
+    align-items: center;
+}
+
+.ps_footer--left span {
+    font-size: 8px;
+}
+
+.ps_footer a {
+    display: inline-block;
+    padding:0 16px;
+}
+
+.ps_footer a.ps_footer--btn {
+    border:solid 1px #555;
+    border-radi: 2px;
+    line-height:40px;
+}
+
+.ps_footer--right {
+    margin-left:auto;
+}
+
+.ps_footer a {
+    color:#AAAAAA;
+}
+
+.ps_footer a:hover {
+    color:#AAAAAA;
+}
+
+.ps_header {
+    background:#222;
+    border-bottom:solid 4px #363636;
+    height:64px;
+    font-family:'Gotham SSm A','Gotham SSm B','Helvetica Neue','Helvetica','Roboto',Arial,sans-serif;
+    left:50%;
+    min-width:1000px;
+    max-width:100%;
+    position:fixed;
+    top:0;
+    transform:translateX(-50%);
+    width:100%;
+    z-index:999;
+}
+
+.ps_header svg {
+    fill:#AAAAAA;
+    position: relative;
+    top:2px;
+    width:24px;
+}
+
+.ps_header a {
+    color:#fff;
+}
+
+.ps_header a:hover {
+    color:#fff;
+    text-decoration: none;
+}
+
+.ps_header--container {
+    display:flex;
+    max-width: 1600px;
+    margin: 0 auto;
+    position:relative;
+    width:100%;
+}
+
+.ps_header--branding {
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    flex:0 0 72px;
+    margin-right:8px;
+}
+
+.ps_header--branding a svg {
+    fill:#AAAAAA;
+    transition: all 0.3s ease;
+}
+
+.ps_header--branding a:hover svg {
+    fill:#FFFFFF;
+}
+
+.ps_header--browse {
+    margin-bottom:-4px;
+    margin-right:20px;
+    position:relative;
+}
+
+.ps_header--browse a {
+    align-items: center;
+    color:#AAAAAA;
+    justify-content: center;
+    display: flex;
+    flex:0 0 110px;
+    flex-wrap: nowrap;
+    height:60px;
+    padding:0 12px;
+    transition: all 0.3s ease;
+}
+
+.ps_header--browse svg {
+    transition: all 0.3s ease;
+}
+
+.ps_header--browse a:hover {
+    background:#363636;
+    color: #FFFFFF;
+}
+
+.ps_header--browse a:hover svg {
+    fill:#FFFFFF;
+}
+
+.ps_header--graident {
+    background: linear-gradient(to right, rgb(240, 90, 40), rgb(232, 10, 137));
+    position:absolute;
+    bottom:2px;
+    left:0;
+    right:0;
+    height:4px;
+}
+
+.ps_header--browse span {
+    display:inline-block;
+    font-size:18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-left:16px;
+    vertical-align:4px
+}
+
+.ps_header--browse svg {
+    top:-2px;
+    width:19px;
+}
+
+.ps_header--search {
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    flex:0 0 500px;
+    margin-right:16px;
+    position:relative;
+}
+
+.ps_header--search form {
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    position:relative;
+    width:100%;
+}
+
+.ps_header--search input[type="text"] {
+    background: #363636;
+    border:none;
+    border-radius:2px;
+    color:#fff;
+    font-size:18px;
+    font-weight: 500;
+    font-family: inherit;
+    height: 44px;
+    line-height: 24px;
+    text-indent:41px;
+    outline:none;
+    width:100%;
+}
+
+.ps_header--search input[type="submit"] {
+    display:none;
+}
+
+.ps_header--search label {
+    left:16px;
+    position:absolute;
+}
+
+.ps_header--search label svg {
+    fill:#AAAAAA;
+    width:20px;
+    top:4px;
+    left:-4px;
+}
+
+.ps_header--autocontainer {
+    opacity:1;
+    padding:24px;
+    transition: all 0.5s ease 0.5s;
+}
+
+.ps_header--autosuggest {
+    background:#FFFFFF;
+    box-sizing: border-box;
+    display:none;
+    left:0;
+    position:absolute;
+    top:54px;
+    width:500px;
+    overflow:hidden;
+}
+
+.ps_header--autosuggest strong,
+.ps_header--autosuggest a {
+    display:block;
+    color:#555;
+    line-height: 32px;
+}
+
+
+.ps_header--autosuggest strong {
+    color:#222;
+    font-weight:700;
+}
+
+.ps_header--autosuggest a:hover {
+    color:#000;
+}
+
+.ps_header--utilities {
+    align-items: center;
+    display:flex;
+    flex:0 1 255px;
+    justify-content: center;
+    margin-left:auto;
+}
+
+.ps_header--bookmark a svg,
+.ps_header--channels a svg,
+.ps_header--notifications a svg {
+    fill:#AAAAAA;
+    transition: all 0.3s ease;
+}
+
+.ps_header--bookmark,
+.ps_header--channels,
+.ps_header--notifications {
+    flex:0 0 60px;
+    text-align:center;
+}
+
+.ps_header--bookmark a,
+.ps_header--channels a,
+.ps_header--notifications a {
+    display:block;
+    padding:15px 0;
+    transition: all 0.3s ease;
+}
+
+.ps_header--bookmark a:hover,
+.ps_header--channels a:hover,
+.ps_header--notifications a:hover {
+    background:#363636;
+}
+
+.ps_header--bookmark a:hover svg,
+.ps_header--channels a:hover svg,
+.ps_header--notifications a:hover svg {
+    fill:#FFFFFF;
+}
+
+.ps_header--account {
+    position: relative;
+}
+
+.ps_header--account a {
+    align-items: center;
+    display:flex;
+    padding:15px 10px 15px 0;
+    position:relative;
+    transition: all 0.3s ease;
+}
+
+.ps_header--account a:hover {
+    background:#363636;
+}
+
+.ps_header--account svg {
+    width:16px;
+}
+
+.ps_header--avatar {
+    background:#000;
+    background-size: cover;
+    border-radius:50px;
+    height:32px;
+    margin-left:16px;
+    width:32px;
+}
+
+.ps_header--carot {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #FFFFFF;
+    width: 0;
+    height: 0;
+    position:absolute;
+    right:20px;
+    top:-8px;
+}
+
+.ps_header--menu {
+    background:#fff;
+    border:solid 1px #AAA;
+    border-radius:2px;
+    display:none;
+    position:absolute;
+    right:0;
+    width:170px;
+}
+
+.ps_header--menu a {
+    color:#555;
+    font-size:14px;
+    line-height:40px;
+    margin:0;
+    padding:0 24px;
+    transition: all 0.3s ease;
+}
+
+.ps_header--menu a:hover {
+    background:#F2F2F2;
+    color:#000;
+}
+
+.ps_header--group {
+    border-bottom:solid 1px #CCCCCC;
+}
