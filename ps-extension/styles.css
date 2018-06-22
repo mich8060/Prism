@@ -14,10 +14,12 @@
 }
 
 .home---3JHna {
-    padding:30px 0 90px !important;
+    padding: 64px 24px 90px 24px !important
 }
 
-
+.editInterests---2TUdT {
+  padding-top: 24px;
+}
 
 /* NEW STYLES */
 
@@ -113,7 +115,7 @@
     display:flex;
     justify-content: center;
     flex:0 0 72px;
-    margin-right:8px;
+    /* margin-right:8px; */
 }
 
 .ps_header--branding a svg {
@@ -139,7 +141,7 @@
     flex:0 0 110px;
     flex-wrap: nowrap;
     height:60px;
-    padding:0 12px;
+    padding:0 16px;
     transition: all 0.3s ease;
 }
 
@@ -175,8 +177,8 @@
 }
 
 .ps_header--browse svg {
-    top:-2px;
     width:19px;
+    top: 0;
 }
 
 .ps_header--search {
@@ -206,17 +208,18 @@
     font-family: inherit;
     height: 44px;
     line-height: 24px;
-    text-indent:41px;
+    text-indent:52px;
     outline:none;
     width:100%;
 }
 
 .ps_header--search input[type="submit"] {
     display:none;
+    padding-left: 16px;
 }
 
 .ps_header--search label {
-    left:16px;
+    left:24px;
     position:absolute;
 }
 
