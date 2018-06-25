@@ -50,6 +50,13 @@ _psmarkup = `
 </div>
 <div class="ps_header--utilities">
 	<div class="ps_header--channels">
+		<div class="ps_tooltip">
+			<div class="ps_tooltip--carot"></div>
+			<div class="ps_tooltip--body">
+				<strong>Channels</strong>
+				Save, organize and share your favorite content.
+			</div>
+		</div>
 		<div class="ps_header--graident" style="bottom:-2px;"></div>
 		<a href="https://app.pluralsight.com/channels">
 			<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -58,6 +65,12 @@ _psmarkup = `
 		</a>
 	</div>
 	<div class="ps_header--bookmark">
+		<div class="ps_tooltip">
+			<div class="ps_tooltip--carot"></div>
+			<div class="ps_tooltip--body">
+				<strong>Bookmarks</strong>
+			</div>
+		</div>
 		<div class="ps_header--graident" style="bottom:-2px;"></div>
 		<a href="https://app.pluralsight.com/library/bookmarks">
 			<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

@@ -1,4 +1,5 @@
 #ps-main {
+    min-height:1000px;
     width:100% !important;
     padding-left:0 !important;
     position:relative !important;
@@ -102,6 +103,48 @@
     text-decoration: none;
 }
 
+.ps_header .ps_tooltip {
+    height:0;
+    left:50%;
+    opacity:0;
+    overflow: hidden;
+    position:absolute;
+    top:64px;
+    transform:translateX(-50%);
+    transition: opacity 0.3s ease;
+    z-index:9999;
+}
+
+.ps_header .ps_tooltip--carot {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #FFFFFF;
+    width: 0;
+    height: 0;
+    position:absolute;
+    left:50%;
+    top:-8px;
+    transform:translateX(-50%);
+}
+
+.ps_header .ps_tooltip--body {
+    background:#FFF;
+    border-radius:2px;
+    color:#555;
+    font-size:11px;
+    font-weight:400;
+    line-height:16px;
+    padding:12px 8px;
+    width:172px;
+}
+
+.ps_header .ps_tooltip--body strong {
+    color:#222;
+    display:block;
+    font-size:14px;
+    font-weight:400;
+}
+
 .ps_header--container {
     display:flex;
     max-width: 1600px;
@@ -122,6 +165,11 @@
 
 .ps_header--branding:hover {
     background: #363636;
+}
+
+.ps_header--branding a {
+    display:block;
+    padding:16px 24px;
 }
 
 .ps_header--branding a svg {
@@ -302,6 +350,13 @@
     flex:0 0 60px;
     position: relative;
     text-align:center;
+}
+
+.ps_header--bookmark:hover .ps_tooltip,
+.ps_header--channels:hover .ps_tooltip {
+    height:auto;
+    opacity:1;
+    overflow: visible;
 }
 
 .ps_header--bookmark a,
