@@ -2,6 +2,7 @@
 _psmarkup = `
 <div class="ps_header--container">
 <div class="ps_header--branding">
+	<div class="ps_header--graident" style="bottom:-2px;"></div>
 	<a href="https://app.pluralsight.com/library">
 		<svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 			<path d="M17.8,11.3v6.6c0,0.5-0.4,0.9-0.9,0.9h-4.3c-0.5,0-0.9-0.4-0.9-0.9v-3.5c0-1-0.8-1.7-1.7-1.7s-1.7,0.8-1.7,1.7v3.5c0,0.5-0.4,0.9-0.9,0.9H3.1c-0.5,0-0.9-0.4-0.9-0.9v-6.6l-0.8,0.8c-0.2,0.2-0.4,0.2-0.6,0l-0.6-0.6c-0.2-0.2-0.2-0.4,0-0.6l9.6-9.6l0,0c0.2-0.2,0.4-0.2,0.6,0l9.6,9.6l0,0c0.2,0.2,0.2,0.4,0,0.6l0,0l-0.6,0.6l0,0c-0.2,0.2-0.4,0.2-0.6,0L17.8,11.3z M16.1,9.6L10,3.5L3.9,9.6V17h2.6v-2.6c0-1.9,1.6-3.5,3.5-3.5s3.5,1.6,3.5,3.5V17h2.6V9.6z"/>
@@ -49,6 +50,7 @@ _psmarkup = `
 </div>
 <div class="ps_header--utilities">
 	<div class="ps_header--channels">
+		<div class="ps_header--graident" style="bottom:-2px;"></div>
 		<a href="https://app.pluralsight.com/channels">
 			<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path id="path-1_1_" d="M12.5,22h-1c-0.3,0-0.5-0.2-0.5-0.5v-8.6c-1.4-0.4-2.5-1.8-2.5-3.4C8.5,7.6,10.1,6,12,6s3.5,1.6,3.5,3.5 c0,1.6-1.1,2.9-2.5,3.4v8.6C13,21.8,12.8,22,12.5,22z M6,2.1C3.9,3.9,2.5,6.5,2.5,9.5c0,2.8,1.2,5.3,3.1,7c0.1,0.1,0.2,0.1,0.3,0.2 l0,0c0.2,0.2,0.2,0.5,0.1,0.7l-0.6,0.8l0,0c-0.2,0.2-0.5,0.3-0.7,0.1c0,0,0,0,0,0c-0.1-0.1-0.2-0.2-0.3-0.3C2,16,0.5,12.9,0.5,9.5 c0-3.6,1.7-6.9,4.3-9c0.1-0.1,0.3-0.1,0.4,0c0,0,0,0,0,0l0.9,1.1l0,0C6.2,1.8,6.1,2,6,2.1z M23.5,9.5c0,3.4-1.5,6.4-3.8,8.5 c-0.1,0.1-0.2,0.2-0.4,0.3l0,0c-0.2,0.2-0.5,0.1-0.7-0.1c0,0,0,0,0,0L18,17.4c-0.2-0.2-0.1-0.5,0.1-0.7c0.1-0.1,0.2-0.2,0.3-0.2 c1.9-1.7,3.1-4.2,3.1-7c0-2.8-1.2-5.3-3.1-7c-0.1-0.1-0.2-0.1-0.3-0.2l0,0c-0.2-0.2-0.2-0.5-0.1-0.7l0.6-0.8l0,0 c0.2-0.2,0.5-0.3,0.7-0.1c0,0,0,0,0,0c0.1,0,0.1,0.1,0.1,0.1C22,2.9,23.5,6,23.5,9.5z M8.3,5.4C8.2,5.5,8.2,5.5,8.1,5.6 c-1,1-1.6,2.4-1.6,3.9c0,1.5,0.6,2.9,1.7,3.9c0,0,0.1,0.1,0.2,0.1l0,0c0.2,0.2,0.2,0.5,0.1,0.7l-0.6,0.8l0,0 c-0.2,0.2-0.5,0.3-0.7,0.1c0,0,0,0,0,0C7,15.1,6.9,15,6.9,15c-1.5-1.4-2.4-3.3-2.4-5.5c0-2.2,1-4.2,2.5-5.6c0,0,0,0,0.1-0.1l0,0 c0.2-0.2,0.5-0.2,0.7,0.1c0,0,0,0,0,0l0.6,0.8l0,0C8.5,5,8.5,5.2,8.3,5.4z M19.5,9.5c0,2.2-1,4.2-2.5,5.6c0,0,0,0-0.1,0.1l0,0 c-0.2,0.2-0.5,0.2-0.7-0.1c0,0,0,0,0,0l-0.6-0.8l0,0c-0.2-0.2-0.1-0.5,0.1-0.7c0.1-0.1,0.2-0.2,0.2-0.2c1-1,1.6-2.4,1.6-3.9 c0-1.5-0.6-2.8-1.5-3.8c-0.1-0.1-0.2-0.2-0.3-0.3l0,0c-0.2-0.2-0.2-0.5-0.1-0.7l0.6-0.8l0,0c0.2-0.2,0.5-0.3,0.7-0.1c0,0,0,0,0,0 C17,3.9,17.1,4,17.1,4C18.6,5.4,19.5,7.3,19.5,9.5z M12,11c0.8,0,1.5-0.7,1.5-1.5S12.8,8,12,8s-1.5,0.7-1.5,1.5S11.2,11,12,11z"/>
@@ -56,6 +58,7 @@ _psmarkup = `
 		</a>
 	</div>
 	<div class="ps_header--bookmark">
+		<div class="ps_header--graident" style="bottom:-2px;"></div>
 		<a href="https://app.pluralsight.com/library/bookmarks">
 			<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 				<path d="M18,2H9.5c-2.2,0-4,1.8-4,4v15.7c0,0.3,0.2,0.5,0.5,0.5c0.1,0,0.3-0.1,0.4-0.2L11,17l4.6,5.1 c0.2,0.2,0.5,0.2,0.7,0c0.1-0.1,0.2-0.2,0.2-0.4V10h4c0.6,0,1-0.4,1-1V6C21.5,3.8,20.2,2,18,2z M14.5,6v12L11,14l-3.5,4V6 c0-1.1,0.9-2,2-2H15C14.7,4.6,14.5,5.3,14.5,6z M19.5,8h-3V6c0-1.1,0.4-2,1.5-2c1.1,0,1.5,0.9,1.5,2V8z"/>
@@ -115,7 +118,19 @@ _psfoot = `
 			<a href="#" class="ps_footer--btn">Get support</a>
 		</div>
 	</div>
-`
+`;
+
+function urlContains(str){
+
+	/* return indow.location.href.indexOf(str) > -1 ? true : false;*/
+
+
+	if(window.location.href.indexOf(str) > -1) {
+    	return true;
+    }
+	return false;
+
+}
 
 var _avatar = $('.avatar---3rQDU').css('background-image');
 
@@ -150,3 +165,31 @@ $(document).on({
 		$('.ps_header--menu').hide();
 	}
 });
+
+
+if(urlContains('library') && !urlContains('bookmarks')){
+	$('.ps_header--branding').addClass('active');
+}else if(urlContains('channels')){
+	$('.ps_header--channels').addClass('active');
+}else if(urlContains('bookmarks')){
+	$('.ps_header--bookmark').addClass('active');
+}
+
+
+function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+};
+
+if(getUrlParameter('q')){
+	$('#ps_search').val(getUrlParameter('q').replace('+',' '));
+}

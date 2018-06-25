@@ -115,7 +115,13 @@
     display:flex;
     justify-content: center;
     flex:0 0 72px;
+    position: relative;
+    transition: all 0.3s ease;
     /* margin-right:8px; */
+}
+
+.ps_header--branding:hover {
+    background: #363636;
 }
 
 .ps_header--branding a svg {
@@ -163,8 +169,18 @@
     position:absolute;
     bottom:2px;
     left:0;
+    opacity:0;
     right:0;
     height:4px;
+}
+
+.active .ps_header--graident {
+    opacity:1;
+}
+
+.active svg,
+.active a svg {
+    fill: #FFFFFF !important;
 }
 
 .ps_header--browse span {
@@ -283,6 +299,7 @@
 .ps_header--channels,
 .ps_header--notifications {
     flex:0 0 60px;
+    position: relative;
     text-align:center;
 }
 

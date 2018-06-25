@@ -15,6 +15,9 @@
     "content_scripts": [{
         "css": ["styles.css"],
         "js": ["jquery-3.3.1.min.js","content.js"],
-        "matches": ["https://app.pluralsight.com/*"]
+        "matches": ["https://app.pluralsight.com/*"],
+        "exclude_matches": [
+            "https://app.pluralsight.com/player*"
+        ]
     }]
 }
